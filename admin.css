@@ -1,0 +1,567 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+
+}
+body{
+    width: 100%;
+    position: relative;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    background: white;
+    display: flex;
+   
+
+    
+}
+.menu-bar{
+    height: 100vh;
+    width: 259px;
+    background:rgb(218, 82, 3) ;
+    border-radius: 6px;
+   
+    
+    
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 4px 0px 25px 6px;
+}
+.logo-section img{
+width: 40px;
+border-radius: 50%;
+}
+.logo-section h2{
+padding: 0px 0px 0px 12px;
+}
+
+.nav-list li {
+color: rgb(250, 161, 109);
+padding: 15px 15px;
+
+}
+.nav-list li a {
+    color: rgb(250, 161, 109);
+   text-decoration: none;
+    
+    }
+.nav-list li:hover{
+    background: white;
+    cursor: pointer;
+    border-radius: 30px;
+    border: white 1px;
+    color:rgb(241, 187, 155) ;
+
+   
+}
+.active{
+    background: white;
+}
+
+
+                               /* DASHBOARD LAYOUT*/
+  .main-grid{
+    height: 170px;
+    width: 84.7%;
+    margin-left: 217px;
+    background: rgb(29, 29, 63);
+    color: rgb(207, 205, 205);
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+   
+  }
+  .empty-space{
+    background:#E2DFD2 ;
+    height: 600px;
+    width:100% ;
+ 
+  }
+  .main-grid h4{
+    padding: 13px;
+  }
+  .sub-grid{
+width: 82%;
+height:300px;
+background: #FFFFFF;
+margin-left: 15px;
+border-radius: 3px;
+position: absolute;
+z-index: 3;
+margin-top: 140px;
+}
+.sub-grid h3{
+color: #000;
+font-size: 13px;
+padding: 13px;
+
+}
+.New-btn{
+    padding: 16px;
+    margin-left:92%;
+    border-radius:4px;
+    margin-top: -50px;
+   
+    
+}
+.New-btn button{
+    color: white;
+    background-color: chocolate;
+    width:60px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    
+    
+}
+.sub-grid1{
+  background: #e2d2d3;
+  padding: 3px;
+  margin-top: 8px;
+  width: 98%;
+  height: 60px;
+  border: 1px solid rgb(184, 181, 181);
+  margin-left: 8px;
+  border-radius: 2px;
+   
+}
+.sub-grid1 h5, p{
+    padding: 5px 5px 5px 5px;
+    font-size:11px;
+    color: #000;
+}
+.sub-grid1 h6{
+    padding: 5px 5px 5px 5px;
+    font-size:11px;
+    color: #000;
+    font-size: 10px;
+    margin-left: 90.5%;
+    margin-top: -30px;
+
+}
+
+.sub-note{
+    color: #000;
+    margin-left: 86%;
+    margin-top: 560px;
+
+}
+.sub-note a{
+    color: red;
+}   
+
+                                       /* LOGIN 1 STYLING 😊😊😘*/
+
+.login-main-grid{
+    height: 170px;
+    width: 100%;
+    background: rgb(29, 29, 63);
+    color: rgb(207, 205, 205);
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+   
+  }
+  .login-empty-space{
+    background:#E2DFD2 ;
+    height: 660px;
+    width:100% ;
+ 
+  }
+.login-sub-grid{
+width: 500px;
+height:300px;
+background: hsl(0, 0%, 100%);
+margin-left: 30%;
+border-radius: 3px;
+position: absolute;
+z-index: 3;
+margin-top: 140px;
+border-radius: 6px;
+}
+.login-sub-grid h3{
+color: #000;
+font-size: 13px;
+padding: 13px;
+margin-left: 200px;
+}
+
+.login-sub-note{
+    color: #000;
+    margin-left: 87%;
+    margin-top: 600px;
+
+}
+.login-sub-note a{
+    color: red;
+}
+form{
+    padding:13px ;
+}
+label{
+    color: grey;
+}
+input{
+    margin-top: 6px;
+    height: 30px;
+    width: 470px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: grey;
+}
+.login-btn{
+width:350px;
+height: 35px;
+margin-left: 75px;
+margin-top: 30px;
+background: chocolate;
+border: none;
+color: white;
+} 
+
+                                 /* LOGIN 2 STYLING 😊😊😘*/
+
+
+.login1-main-grid{
+    height: 60px;
+    width: 100%;
+    background: hsl(0, 0%, 100%);
+    color: black;
+    font-size: 10px;
+    position: absolute;
+   
+   
+  }
+  .login1-empty-space{
+    background:rgb(161, 12, 161) ;
+    height: 660px;
+    width:100% ;
+ 
+  }
+.login1-sub-grid{
+width: 60%;
+height:480px;
+background: hsl(0, 0%, 100%);
+margin-left: 18%;
+border-radius: 3px;
+margin-top: 90px;
+border-radius: 6px;
+}
+.login-1{
+color: #000;
+font-size: 13px;
+margin-bottom: -150px;
+margin-left: 65%;
+font-size: 15px;
+}
+.form-log{
+    padding:13px ;
+    margin-left: 50%;
+    margin-top:20%;
+}
+label{
+    color: grey;
+}
+.login1-input{
+    margin-top: 6px;
+    width:300px;
+    border-radius: 30px;
+    height: 40px;
+    border: 1px solid grey;
+    color:black;
+    background: #e2d2d3;
+}
+.login2-btn{
+    width:300px;
+    border-radius: 30px;
+    height: 40px;
+    margin-left: 53%;
+    margin-top: 4px;
+    background: rgb(26, 128, 0);
+    border: none;
+    color: white;
+    } 
+    .image-sec{
+        width: 150px;
+        background: grey;
+        border-radius: 50%;
+            padding: 20px;
+    }
+    img{
+        margin-left: 5px;
+      
+       
+    }
+    
+
+
+
+
+
+
+
+                                                   /* ADD DATA/STUDENT STYLING 😊😊😘*/
+
+
+.data-sub-grid{
+width: 520px;
+height:305px;
+background: hsl(0, 0%, 100%);
+margin-left: 20px;
+border-radius: 3px;
+position: absolute;
+z-index: 3;
+margin-top: 140px;
+border-radius: 6px;
+}
+.data-sub-grid h3{
+color: #000;
+font-size: 13px;
+padding: 13px;
+margin-left: 200px;
+}
+
+.data-sub-grid2{
+    width: 570px;
+    height:220px;
+    background: hsl(0, 0%, 100%);
+    margin-left: 560px;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 140px;
+    border-radius: 6px;
+}
+.data-form2 h3{
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.data-input{
+width: 540px;
+height: 35px;
+box-sizing: 1px ;
+
+}
+.data-input::placeholder{
+    color: #000;
+}
+
+.data-btn1{
+    width:400px;
+    height: 35px;
+    margin-left: 55px;
+    margin-top: 20px;
+    background: chocolate;
+    border: none;
+    color: white;
+    }
+    
+.data-btn{
+    width:400px;
+    height: 35px;
+    margin-left: 75px;
+    margin-top: 8px;
+    background: chocolate;
+    border: none;
+    color: white;
+    }
+
+                               /* ADD DATA/STUDENT STYLING 😊😊😘*/
+
+.view-left{
+    margin-left:70% ;
+    margin-top: -30px;
+    
+}
+
+#sel-class{
+   height: 30px;
+   width: 210px;
+}
+.view-btn button{
+    background: chocolate;
+    color: white;
+    margin-left: 40px;
+    border: none;
+    height: 25px;
+    width: 70px;
+}
+.view-sub-grid1{
+    display: flex;
+    padding: 5px;
+    margin-left: 6px;
+}
+.view-sub-grid1 p{
+
+    margin-left: 150px;
+}
+
+
+
+
+
+  /* mediaqury for DASHBOARD LAYOUT*/ 
+
+@media screen and (max-width: 480px) {
+  
+
+
+    body{
+        width: 100%;
+        position: relative;
+        font-family: Tahoma, sans-serif;
+        font-size: 15px;
+        background: white;
+        display: flex;
+       
+    
+        
+    }
+    .menu-bar{
+        height: 100vh;
+        width: 259px;
+        background:rgb(218, 82, 3) ;
+        border-radius: 6px;
+       
+        
+        
+    }
+    .logo-section{
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 4px 0px 25px 6px;
+    }
+    .logo-section img{
+    width: 40px;
+    border-radius: 50%;
+    }
+    .logo-section h2{
+    padding: 0px 0px 0px 12px;
+    }
+    
+    .nav-list li {
+    color: rgb(250, 161, 109);
+    padding: 15px 15px;
+    
+    }
+    .nav-list li a {
+        color: rgb(250, 161, 109);
+       text-decoration: none;
+        
+        }
+    .nav-list li:hover{
+        background: white;
+        cursor: pointer;
+        border-radius: 30px;
+        border: white 1px;
+        color:rgb(241, 187, 155) ;
+    
+       
+    }
+    .active{
+        background: white;
+    }
+
+
+.main-grid{
+height: 140px;
+width: 100%;
+margin-left: 167px;
+background: rgb(29, 29, 63);
+color: rgb(207, 205, 205);
+font-size: 10px;
+display: inline-block;
+position: absolute;
+z-index: 1;
+
+}
+.empty-space{
+background:#E2DFD2 ;
+height: 100vh;
+width:100% ;
+
+}
+.main-grid h4{
+padding: 13px;
+}
+.sub-grid{
+width: 82%;
+height:300px;
+background: #FFFFFF;
+margin-left: 15px;
+border-radius: 3px;
+position: absolute;
+z-index: 3;
+margin-top: 140px;
+}
+.sub-grid h3{
+color: #000;
+font-size: 13px;
+padding: 13px;
+
+}
+.New-btn{
+padding: 16px;
+margin-left:82%;
+border-radius:4px;
+margin-top: -50px;
+
+
+}
+.New-btn button{
+color: white;
+background-color: chocolate;
+width:60px;
+height: 25px;
+border: none;
+border-radius: 3px;
+
+
+}
+.sub-grid1{
+background: #e2d2d3;
+padding: 3px;
+margin-top: 8px;
+width: 98%;
+height: 60px;
+border: 1px solid rgb(184, 181, 181);
+margin-left: 8px;
+border-radius: 2px;
+
+}
+.sub-grid1 h5, p{
+padding: 5px 5px 5px 5px;
+font-size:11px;
+color: #000;
+}
+.sub-grid1 h6{
+padding: 5px 5px 5px 5px;
+font-size:11px;
+color: #000;
+font-size: 10px;
+margin-left: 90.5%;
+margin-top: -30px;
+
+}
+
+.sub-note{
+color: #000;
+margin-left: 86%;
+margin-top: 560px;
+
+}
+.sub-note a{
+color: red;
+}
+}
+
+
+
